@@ -1,17 +1,6 @@
 import React from 'react'
 import Card from './Card'
 
-// const ContactInfo = (props) => {
-//   const name = props.name
-//   const capitalizedName = name.charAt(0).toUpperCase() + name.slice(1)
-	
-//   return (
-// 		<div>
-//       {name.length < 6 && <h2>Name: {capitalizedName}</h2>}
-// 		</div>
-// 	)
-// }
-
 class ContactInfo extends React.Component {
   constructor(props) {
     super(props)
