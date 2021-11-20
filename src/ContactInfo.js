@@ -28,7 +28,7 @@ class ContactInfo extends React.Component {
   render() {
     return (
       <Card>
-        <h2>{this.state.name}</h2>
+        <h2 className="contact-name">{this.state.name}</h2>
         <button onClick={this.handleClick}>capitalize</button>
         <button onClick={this.unCap}>lowercase</button>
       </Card>
